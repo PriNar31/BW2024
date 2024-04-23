@@ -36,11 +36,11 @@ library(readxl)
 
 
 # Define the directory path where your files are located
-directory_path <- "C:/Users/goupr74p/OneDrive - University of Otago/Desktop/Birthweight analysis PNapril2024"
+directory_path <- "Birthweight analysis PNapril2024"
 
 #Load  datasets into R environment
 library(readxl)
-birthwt <- read_excel("C:/Users/goupr74p/OneDrive - University of Otago/Desktop/Birthweight analysis PNapril2024/birthwt.xlsx")
+birthwt <- read_excel("Birthweight analysis PNapril2024/birthwt.xlsx")
 View(birthwt)
 
 # Set the working directory to the specified directory path
